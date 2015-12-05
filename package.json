@@ -1,0 +1,53 @@
+{
+  "name": "react-redux-cordova-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eslint scripts && gulp",
+    "build:ios": "eslint scripts && gulp build:ios",
+    "build:android": "eslint scripts && gulp build:android",
+    "test": "eslint scripts && gulp test"
+  },
+  "dependencies": {
+    "classnames": "^2.2.0",
+    "immutable": "^3.7.5",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.23",
+    "babel-loader": "^5.3.2",
+    "chai": "^3.4.1",
+    "chai-immutable": "^1.5.3",
+    "cordova": "^5.4.1",
+    "css-loader": "^0.23.0",
+    "del": "^2.1.0",
+    "eslint": "^1.10.1",
+    "eslint-config-airbnb": "^1.0.0",
+    "eslint-loader": "^1.1.1",
+    "eslint-plugin-react": "^3.10.0",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.0",
+    "gulp-cordova-build-ios": "^1.0.0",
+    "gulp-cordova-create": "^1.2.0",
+    "gulp-eslint": "^1.1.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-shell": "^0.5.1",
+    "gulp-util": "^3.0.7",
+    "gulp-webpack": "^1.5.0",
+    "json-loader": "^0.5.4",
+    "mocha": "^2.3.4",
+    "node-sass": "^3.4.2",
+    "react-hot-loader": "^1.3.0",
+    "redux-devtools": "^2.1.5",
+    "resolve-url-loader": "^1.4.2",
+    "run-sequence": "^1.1.5",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.8",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
